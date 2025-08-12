@@ -1,0 +1,1 @@
+C:\Users\sputheng\.wvenv\Scripts\activate.bat

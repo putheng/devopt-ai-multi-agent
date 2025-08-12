@@ -9,7 +9,7 @@ import json
 from datetime import datetime
 import streamlit as st
 
-load_dotenv("../.env")
+load_dotenv()
 
 # Base class for all specialized agents
 class BaseAgent(ABC):

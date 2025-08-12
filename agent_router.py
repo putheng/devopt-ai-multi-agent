@@ -4,7 +4,7 @@ from models import RouteClassification
 from models import AgentType, ExtractedParams
 
 from dotenv import load_dotenv
-load_dotenv("../.env")
+load_dotenv()
 
 class AgentRouter:
     """Routes user queries to appropriate specialized agents using OpenAI structured outputs"""

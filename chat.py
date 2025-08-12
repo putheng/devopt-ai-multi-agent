@@ -6,7 +6,7 @@ from agent_router import router
 from agents import AgentFactory
 from supports import retrieve
 
-load_dotenv("../.env")
+load_dotenv()
 client = OpenAI()
 memory_client = MemoryClient()
 

@@ -7,7 +7,7 @@ from mem0 import MemoryClient
 
 from qdrant_client import QdrantClient
 
-load_dotenv("../.env")
+load_dotenv()
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
